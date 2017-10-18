@@ -1,2 +1,2 @@
-# python_oop
-Object Oriented Programming in Python
+# Python OOP 
+* Practice code for learning OOP in Python
