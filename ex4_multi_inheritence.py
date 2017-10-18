@@ -36,7 +36,10 @@ class D(C, B):
         print("D.z")
 
 obj = D()
+
 print(obj.a)
+# answer is 2. The init for B comes after C, which allows it to overide C's init. Thus, the binding of a in B is the accessed attribute
+
 print(obj.b)
 print(obj.c)
 print(obj.d)
